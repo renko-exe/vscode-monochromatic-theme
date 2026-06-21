@@ -4,13 +4,10 @@
   "description": "A distraction-free theme for VS code.",
   "version": "1.0.0",
   "publisher": "renko-exe",
-<<<<<<< HEAD
-=======
   "repository": {
     "type": "git",
     "url": "https://github.com/renko-exe/vscode-monochromatic-theme.git"
   },
->>>>>>> 4f32bb2 (Initial commit)
   "engines": {
     "vscode": "^1.60.0"
   },
