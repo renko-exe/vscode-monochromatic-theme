@@ -1,0 +1,77 @@
+{
+  "name": "Monochromatic",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#181818",
+    "editor.foreground": "#d4d4d4",
+    "editorLineNumber.foreground": "#505050",
+    "editorLineNumber.activeForeground": "#ffffff",
+    "editor.selectionBackground": "#303030",
+    "editorCursor.foreground": "#ffffff",
+    "activityBar.background": "#111111",
+    "sideBar.background": "#141414",
+    "statusBar.background": "#111111",
+    "statusBar.foreground": "#888888",
+    "tab.activeBackground": "#181818",
+    "tab.inactiveBackground": "#111111",
+    "titleBar.activeBackground": "#111111",
+    "button.background": "#0E9464",
+    "button.hoverBackground": "#0B7A52",
+    "button.foreground": "#ffffff",
+    "progressBar.background": "#0E9464",
+    "activityBarBadge.background": "#0E9464",
+    "focusBorder": "#0E9464",
+    "textLink.foreground": "#0E9464"
+  },
+  "tokenColors": [
+    {
+      "name": "All Code (Monochrome)",
+      "scope": [
+        "keyword",
+        "storage",
+        "type",
+        "variable",
+        "constant",
+        "entity",
+        "support",
+        "meta",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#0E9464"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#555555",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords (Bold)",
+      "scope": [
+        "keyword.control",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

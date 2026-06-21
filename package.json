@@ -1,0 +1,23 @@
+{
+  "name": "monochromatic",
+  "displayName": "Monochromatic theme",
+  "description": "A distraction-free theme for VS code.",
+  "version": "1.0.0",
+  "publisher": "renko-exe",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Monochromatic",
+        "label": "Monochromatic",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
